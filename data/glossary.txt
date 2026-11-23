@@ -1,0 +1,779 @@
+# 핵심 단어·숙어 사전. 형식: 표현/변형/변형|뜻   (문장에서 단어 단위로 찾아 아래에 뜻을 보여줌)
+running late|늦어지는 중인
+stuck in traffic|차가 막혀 꼼짝 못 하는
+stuck|멈춰서 꼼짝 못 하는
+catch up/caught up/catching up|밀린 것을 따라잡다, 근황을 나누다, 뒤따라가다
+feel free to|편하게 ~하세요
+back-to-back|연달아 이어지는
+calendar invite|일정 초대
+push it back/push the meeting|일정을 뒤로 미루다
+short notice|촉박한 통보
+came up/comes up/come up|(일이) 생기다
+ease back into|천천히 다시 적응하다
+inbox|받은 편지함
+welcome aboard|합류를 환영해요
+handling|담당하다, 처리하다
+figure out|알아내다, 이해하다
+expense report|경비 보고서
+walk me through|차근차근 설명하다
+didn't quite catch|잘 못 알아들었다
+jump in|(대화에) 끼어들다
+due|마감인
+prioritize|우선순위를 두다
+slide deck|발표 슬라이드
+polishing|다듬는
+double-check|다시 확인하다
+swamped|일에 파묻힌
+take that on/take on|(일을) 맡다
+grab|가볍게 ~하다, 얼른 사다
+in the mood for|~이 당기는
+beat the crowd|붐비기 전에 가다
+reaching out|연락하다
+looking into|알아보다, 검토하다
+get back to you|다시 연락드리다
+attached|첨부한
+wrapped up/wrap up|마무리하다
+cover for/covering for|대신 일을 맡다
+heads up|미리 알림
+on mute|음소거 상태인
+froze|(화면이) 멈췄다
+sum up|요약하다
+couldn't agree more|완전 동의하다
+down the road|나중에, 앞으로
+where you're coming from|당신의 입장, 하는 말의 뜻
+timeline|일정
+phases|단계
+out of the office|부재중인
+keep an eye on|지켜보다, 챙겨 보다
+watch out for|주의하다
+nailed|완벽하게 해냈다
+went by|(시간이) 지나갔다
+that's on me|제 탓이에요
+figures|수치
+tackle|(일을) 처리하다
+heading out/head out|나가다, 출발하다
+bright and early|아침 일찍
+stay late|늦게까지 남다
+sticking around|남아 있는
+hometown|고향
+get through|버텨내다, 해내다
+i can take it|감당할 수 있어요
+flat|변동 없는, 제자리인
+sleep on it|하룻밤 생각해 보다
+worn out|지친
+call it a day|오늘은 그만하다
+turned out|결과가 ~하게 되다
+turn down/turned down|거절하다, (세기를) 낮추다
+best of luck|행운을 빌어요
+keep in touch|계속 연락하다
+don't be a stranger|연락 끊지 말고 지내요
+count me in|나도 끼워줘
+pulled through|이겨냈다
+the rest of the year|올해 남은 기간
+once in a while|가끔
+work mode|일할 분위기
+book a table/book the seats|예약하다
+put our name down|명단에 이름을 올리다
+drafty|외풍이 드는
+booth|칸막이 자리
+when you get a chance|시간 될 때
+go with/going with|~로 고르다
+swap|바꾸다
+on the side|따로 곁들여
+allergy|알레르기
+mild|순한
+appetizers|전채 요리
+scrambled|스크램블(휘저어 익힌)
+refills|리필
+oat milk|귀리 우유
+to go, thanks/sandwiches to go/dessert to go|포장해서
+extra shot|샷 추가
+outlets|콘센트
+lukewarm|미지근한
+undercooked|덜 익은
+take care of/taking care of|처리하다, 돌보다
+high chair|아기 의자
+the check|계산서
+split the bill|나눠 내다
+pay separately|따로 계산하다
+on me|내가 낼게
+i insist|꼭 그러고 싶어
+tender|부드러운
+salty|짠
+order in|배달시켜 먹다
+craving|~이 몹시 당기는
+the usual|늘 먹던 것
+casual|편한, 격식 없는
+sample|맛보기
+vegetarian|채식의
+meat stock|고기 육수
+back in stock|재입고된
+by the glass|잔 단위로
+another round|한 잔 더
+stick to|~만 고수하다
+another bite|한 입 더
+kiosk|무인 주문기
+all-you-can-eat|무제한으로 먹는
+private room|룸, 별실
+set menus|세트 메뉴
+seasonal|계절 한정의
+specials|특선 메뉴
+attentive|세심한
+kitchen close|주방이 마감하다
+call in an order|전화로 주문하다
+bestseller|가장 잘 팔리는 것
+sold out|품절된
+deposit|예약금
+fully booked|예약이 꽉 찬
+platter|모둠 요리 접시
+feed|(몇 명을) 먹이다
+freezing|몹시 추운
+layers|겹쳐 입은 옷
+been up to|요즘 지내는 일
+resolution|결심
+cut down on|줄이다
+hang in there|버텨
+barely|거의 ~않다
+coming down with|(병에) 걸리려는
+scratchy|칼칼한
+achy|쑤시는
+go easy on|무리하지 않다, 살살 하다
+push yourself|무리하다
+back to normal|평소대로 돌아온
+so far|지금까지
+air quality|공기 질
+act up|(병이) 도지다
+meds|약
+make up its mind|결정하다
+just in case|혹시 모르니
+suits you|너에게 어울리다
+on sale|할인 중인
+in full bloom|활짝 핀
+working out|운동하는
+sore|(목·근육이) 아픈
+watching what i eat|식단을 조절하는
+get in shape|몸을 만들다
+really into/i'm into/she's into|~을 좋아하는, ~에 빠진
+get into|(취미를) 시작하게 되다, (장소에) 도착하다
+amusement park|놀이공원
+niece|여자 조카
+worth it|그럴 만한 가치가 있는
+housewarming|집들이
+neighborhood|동네
+portable fan|휴대용 선풍기
+soaked|흠뻑 젖은
+binge-watched|몰아서 봤다
+halfway through|절반쯤 지난
+turn it around|상황을 반전시키다
+tell me about it|내 말이(격한 공감)
+humid|습한
+sticky|끈적한
+jealous|부러운
+the big day|결혼식 날, 중요한 날
+no joke|장난 아닌
+rough|힘든, 대략적인
+holding you back|망설이게 하는
+got your back|네 편이야
+kidding|농담하는
+hectic|정신없이 바쁜
+slow down|속도를 늦추다
+flew by|쏜살같이 지나갔다
+declutter|(물건을) 정리하다
+bring myself to|~할 마음이 내키다
+browsing|둘러보는
+fitting rooms|탈의실
+tight|꽉 끼는
+a size up|한 치수 큰 것
+gift wrap|선물 포장하다
+come in/comes in|(색·사이즈로) 나오다, 들어오다
+it's a deal/you've got a deal|좋아요, 그렇게 해요
+refund|환불
+exchange|교환하다, 환전하다
+store credit|매장 적립금
+drowsy|졸린
+appointment|(진료 등) 예약
+prescription|처방전
+trim|다듬기
+dry-cleaned|드라이클리닝 된
+stain|얼룩
+hem|(옷) 기장을 줄이다
+contract|약정, 계약
+debit card|체크카드
+exchange rate|환율
+small bills|소액권
+tracking number|운송장 번호
+ate my card|카드를 삼켰다
+warranty|보증
+estimate|견적
+aisle seat|통로 쪽 좌석
+aisle|(마트) 진열대 통로
+register|계산대
+bagging area|포장대
+buy one, get one free|1+1
+installments|할부
+replacement|교체품
+membership|회원권
+fee|요금, 수수료
+subscription|구독
+confirmation|확인
+on hold|(전화) 대기 중인
+transfer|갈아타다, (전화를) 돌리다, (돈을) 이체하다
+charged twice|두 번 결제된
+statement|명세서
+clogged|막힌
+plunger|뚫어뻥
+plumber|배관공
+in bulk|대량으로
+resist|참다
+technically|엄밀히 말하면
+frames|안경테
+in style|유행하는
+made of|~로 만든
+costumes/costume|의상, 분장
+utilities|공과금, 관리비
+last the longest|가장 오래가다
+price match|최저가 보상하다
+pre-order|예약 주문하다
+customs|세관, 관세
+return policy|반품 규정
+limit per customer|1인당 한도
+gift receipt|교환용 영수증
+price tag|가격표
+packed|꽉 찬
+express|빠른(배송)
+budget|예산
+yikes|헉, 아이고
+wishing you all the best|모든 일이 잘되길 바라
+sleep in|늦잠 자다
+sounds like a plan|좋아, 그렇게 하자
+grandparents|조부모님
+rain check|다음 기회로 미루기
+recharge|재충전하다
+guess what|있잖아
+mat|돗자리, 매트
+come over|(집에) 놀러 오다
+still up for|~할 마음이 아직 있는
+thoughtful|사려 깊은
+made my day|덕분에 기분 좋아졌어
+lifesaver|구세주
+owe you|신세를 지다
+dress code|복장 규정
+bummer|아쉬운 일
+can't be helped|어쩔 수 없다
+drive me crazy|미치게 하다
+get on my nerves|신경 거슬리게 하다
+not a big deal|별일 아닌
+hit the beach|바다에 가다
+sunscreen|선크림
+my bad|내 실수
+mixed you up|헷갈렸다
+no worries|괜찮아
+paradise|천국
+blinked|눈을 깜빡였다
+brings back|(기억을) 떠올리게 하다
+early start|이른 시작
+throwing a surprise party|깜짝 파티를 열다
+keep her busy|붙잡아 두다
+let it slip|(비밀을) 흘리다
+lips are sealed|입 다물게
+chipped in|돈을 보탰다
+go on sale|판매가 시작되다
+catch a movie|영화 보다
+flip a coin|동전을 던지다
+feeling a little down|조금 울적한
+pick you up|데리러 가다
+torn between|~사이에서 고민하는
+all ears|귀 기울이는
+my treat|내가 쏠게
+overreacted|과민 반응했다
+talked it out|대화로 풀었다
+raise a glass|건배하다
+secret santa|마니또 선물 교환
+cozy|아늑한
+out with the old|묵은 것은 보내고
+round-trip|왕복
+direct flight|직항
+overweight|무게 초과인
+carry-on|기내 반입 가방
+boarding|탑승
+meal voucher|식사 쿠폰
+overhead bin|머리 위 짐칸
+squeeze by|비집고 지나가다
+baggage claim|수하물 찾는 곳
+carousel|수하물 벨트
+luggage|짐
+declare|(세관에) 신고하다
+connecting flight|환승편
+downtown|시내
+trunk|트렁크
+check in|체크인하다
+honeymoon|신혼여행
+laundry|세탁
+locked myself out|문이 잠겨 못 들어가다
+within walking distance|걸어갈 수 있는 거리에
+convenience store|편의점
+late checkout|늦은 체크아웃
+platform|승강장
+uptown|업타운(도심 북쪽)
+stops|정거장
+full insurance|종합 보험
+full tank|기름 가득
+fill it up|가득 채우다
+missed my train|기차를 놓쳤다
+cancellation policy|취소 규정
+file a claim|보험금을 청구하다
+lounge|라운지
+change fee|변경 수수료
+canceled|취소된, 결항된
+seal|밀봉하다
+to pack/pack it|(짐을) 싸다, 담다
+tax refund|세금 환급
+jet-lagged|시차로 피곤한
+i'm lost|길을 잃었다
+in the shot|사진 안에
+allowed to|~해도 되는
+admission|입장료
+combo ticket|통합권
+last entry|입장 마감
+audio guide|오디오 가이드
+must-see|꼭 봐야 할 것
+hidden gems|숨은 명소
+locals|현지인
+book ahead|미리 예약하다
+souvenirs|기념품
+cash only|현금만 받는
+parade|퍼레이드
+same-day|당일의
+equipment|장비
+pickup|픽업
+avoid|피하다
+police report|경찰 신고서
+embassy|대사관
+temporary passport|임시 여권
+pharmacy|약국
+bear with me|조금만 참아 주세요
+about to die|(배터리가) 곧 꺼질
+day trip|당일치기 여행
+height requirement|키 제한
+cloakroom|물품 보관소
+time slot|시간대
+known for|~로 유명한
+locker|사물함
+rooting for|응원하는
+tip/tips|팁(을 주다), 요령
+having me|초대해 줘서
+fall colors|단풍
+trail|등산로, 산책로
+simmer|약불에 끓이다
+night market|야시장
+cover charge|(공연장) 입장료
+incredible|끝내주는
+honored|영광인
+time of my life|인생 최고의 시간
+mulled wines/mulled wine|뱅쇼
+handmade|수제의
+save my spot|자리를 맡아주다
+trip of a lifetime|일생일대의 여행
+# --- 2차 보강: 일상 덩어리 표현 ---
+looking forward to|~을 기대하다
+if possible|가능하면
+reservation|예약
+check out|확인해 보다, 체크아웃하다
+along the way|하는 과정에서
+struggle|어려움을 겪다
+focus on|~에 집중하다
+long time no see|오랜만이야
+try it on|입어 보다
+works best for you/work for you|(시간이) 괜찮다
+i can't wait/can't wait to see|너무 기대된다
+make it in|(회사에) 도착하다
+fresh pot|새로 내린 커피
+kept barking|계속 짖었다
+discount/discounts|할인
+take my shoes off|신발을 벗다
+schedule|일정
+a few more minutes|몇 분 더
+enough to share|나눠 먹을 만큼 충분한
+take a quick look|잠깐 보다
+medium rare|미디엄 레어(살짝 덜 익힘)
+delayed/delay|지연(된)
+guided tours|가이드 동행 투어
+holiday mode|연휴 기분
+feeling any better|좀 나아진
+how much are you asking|얼마에 파세요
+on my way|가는 중
+keep you waiting|기다리게 하다
+in my seat|제 자리에
+separate line|별도 줄
+on a scale of|~의 척도로
+instead|대신
+kind of you|친절하시네요
+joining us|합류하다
+spend more time|시간을 더 보내다
+take a walk|산책하다
+receipt|영수증
+good mood|좋은 기분
+celebrate|축하하다
+a little later|조금 이따
+excited to|~하게 되어 신나는
+serving|(음식을) 제공하는
+stressed out|스트레스 받은
+nonstop|쉴 새 없는
+blanket|담요
+switching seats|자리를 바꾸는
+half a pound|반 파운드(약 227g)
+make sure|확실히 하다
+draft|초안
+bother|귀찮게 하다
+better price|더 좋은 가격
+go ahead|어서 하세요
+password|비밀번호
+watch my stuff|짐을 봐 주다
+coughing|기침하는
+on vacation|휴가 중인
+famous for|~로 유명한
+separate bags|따로 담은 봉투
+come out|(음식·짐이) 나오다, (기사가) 와 주다
+check on|확인해 보다
+crowded|붐비는
+an inch off|1인치(약 2.5cm) 자르기
+i'd love to|기꺼이요, 좋아요
+waiting on|~을 기다리는
+grilled|구운
+pick it up|찾아가다, 가지러 가다
+late reply|늦은 답장
+crazy week|정신없는 한 주
+suitcase|여행 가방
+deliver|배달하다
+going on|일어나고 있는
+end of day|업무 종료 시각
+didn't have to|그럴 필요 없었는데
+snacks|간식
+rent|빌리다
+napkins|냅킨
+free time|여가 시간
+unlimited data|무제한 데이터
+by the way|그나저나
+will i make it|제시간에 갈 수 있을까
+make dinner|저녁 약속에 가다
+transferred|옮겨진
+tickets left|남은 표
+weekly meeting|주간 회의
+day off|쉬는 날
+dessert|디저트
+account|계좌
+documents|서류
+perfect for each other|천생연분인
+set it up|설정하다
+indoors/indoor|실내(의)
+the rest|나머지
+as often as|~만큼 자주
+roughly|대략
+whole day|하루 종일
+kids' menu|어린이 메뉴
+package|소포, 택배
+shipping|배송
+address|주소
+snorkeling|스노클링
+credit cards|신용카드
+moved into|~로 이사했다
+main entrance|정문
+front gate|정문
+reservation under|~의 이름으로 된 예약
+included|포함된
+safe to|~해도 안전한
+rainy season|장마철
+won't turn on|켜지지 않는
+text me|문자해
+as soon as|~하자마자
+until then|그때까지
+stole|훔쳤다
+police station|경찰서
+share my screen|화면을 공유하다
+moving on to|~로 넘어가다
+mistake/mistakes|실수
+bill|계산서, 청구서
+fix/fixed|고치다
+in the back|창고에, 뒤쪽에
+directly|직접
+ocean view|바다 전망
+upgrade|업그레이드하다
+passport|여권
+next steps|다음에 할 일
+survey|설문
+taste|입맛, 취향
+at least|그래도, 적어도
+air conditioner|에어컨
+switch rooms|방을 바꾸다
+say that again|다시 말하다
+slowly|천천히
+write it down|적다
+leave it at the door|문 앞에 두다
+total mess|완전 엉망
+turn on|켜다
+arrived|도착했다
+delivered|배달 완료된
+come on in|어서 들어와
+towels|수건
+explain/explained|설명하다
+make sense/makes sense|이해가 되다, 그럴 만하다
+urgent|급한
+respond|답하다
+try it out|체험해 보다
+key card|카드키
+charge my phone|휴대폰을 충전하다
+charge for/charge on/extra charge|요금
+charger|충전기
+serious|진지한, 진심인, 심각한
+congratulations/congrats|축하해
+earliest|가장 이른
+pretend|~인 척하다
+prepare|준비하다
+toppings|토핑
+ended up|결국 ~하게 됐다
+got here|도착했다
+this ride|이 놀이기구
+did i miss anything|내가 놓친 거 있어?
+sunset|노을
+wish i could've|~했으면 좋았을 텐데
+could've|~할 수 있었을 텐데
+exhibit|전시
+not too dry|너무 드라이하지 않은(덜 떫은)
+something light|가벼운 것
+paid off|결실을 맺었다
+deserve|~받을 자격이 있다
+refunded|환불된
+post this|(SNS에) 이걸 올리다
+spot|장소, 자리
+within the hour|한 시간 안에
+resend|다시 보내다
+here's to|~을 위하여(건배)
+remember when|~하던 거 기억나?
+used to|예전에 ~하곤 했다
+karaoke|노래방
+client proposal|고객 제안서
+so full|너무 배부른
+on you|네가 낼 차례
+route|코스, 경로
+slice|조각, (얇게) 썰다
+definitely|확실히
+gift set|선물 세트
+accepting|받아 주는
+insane|엄청난
+safe travels|조심히 다녀와
+self-service|셀프 서비스
+chaotic|정신없는
+say hi to|~에게 안부 전하다
+your hours|영업시간
+careful|조심하는
+back to reality|현실로 돌아온
+over the break|쉬는 동안
+time limit|시간 제한
+make a wish|소원을 빌다
+blow out|불어서 끄다
+little something|작은 선물
+wet wipes|물티슈
+get my eyes checked|시력 검사를 받다
+adults|성인
+photo spot|사진 명소
+partnering with|~와 협업하는
+hike|등산
+steep|가파른
+washing machine|세탁기
+hot water|온수
+prefer|더 좋아하다
+ship|배송하다
+let you know|알려 주다
+main course|메인 요리
+recommend|추천하다
+check it out|한번 보다
+give it a try|한번 해 보다
+dressing up|분장하는
+chilly|쌀쌀한
+all of a sudden|갑자기
+appreciate|감사하다
+on time|제시간에
+come with|~가 함께 나오다
+exactly what i needed|딱 필요했던 것
+similar|비슷한
+had no idea|전혀 몰랐다
+return flight|귀국편
+in love with|~에 반한
+someday|언젠가
+miss you|보고 싶다
+launch week|출시 주간
+in store|매장에서
+the other day|며칠 전에
+review|후기
+slippery|미끄러운
+pick out|고르다
+in her twenties|20대인
+get together|모이다
+poll|투표
+escaping|벗어나는
+year-end party|송년회
+attention|주목
+tax-free form|면세 서류
+in line|줄 서 있는
+hard work|노력, 수고
+days off|휴일
+parking|주차
+shop online|온라인으로 쇼핑하다
+go through security|보안 검색을 통과하다
+countdown|카운트다운
+there for me|곁에 있어 주는
+new year's eve|12월 31일(새해 전날)
+you're welcome to|얼마든지 ~해도 돼요
+end the year|한 해를 마무리하다
+can't believe|믿기지 않는다
+# --- 3차 보강: 생활 장면 개편(집·동네, 생활 서비스, 주말) ---
+checking in|체크인하는 중
+hold on|잠깐만요
+got the door|문 잡고 있다
+this is me|저 여기서 내려요
+have a good one|좋은 하루 보내요
+keeping it down|소리를 줄이는 것
+late at night|밤늦게
+collect recycling|분리수거를 가져가다
+labels|라벨, 상표
+filling|(치아) 때우기
+fragile|깨지기 쉬운
+sound terrible|목소리가 안 좋다
+pick up some medicine|약을 사 오다
+stay in bed|누워서 쉬다
+spring cleaning|봄맞이 대청소
+vacuum|청소기를 돌리다
+screen cracked|액정이 깨졌다
+take turns|번갈아 하다
+chores|집안일
+sounds fair|공평하네
+drop them off|갖다 놓다, 반납하다
+check my form|자세를 봐 주다
+squat|스쿼트하다
+itchy|가려운
+flares up|(증상이) 심해지다
+wide feet|넓은 발볼
+side dish|반찬
+great cook|요리를 잘하는 사람
+fast the night before|전날 밤부터 금식하다
+the bride|신부
+since high school|고등학교 때부터
+stiff|뻣뻣한, 뭉친
+softer|더 살살
+campsite|캠핑 사이트
+campfires|모닥불
+jammed|(종이가) 걸린
+pottery|도자기 공예
+water my plants|화분에 물을 주다
+while i'm away|내가 없는 동안
+bring you something back|선물을 사 오다
+dehumidifier|제습기
+the ending|결말
+got me|(감정적으로) 당했다, 울렸다
+out of ten|10점 만점에
+sing one more|한 곡 더 부르다
+get rid of|없애다
+pest control|해충 방역
+day pass|1일 이용권
+swim cap|수영모
+out of service|운행 중지된
+bleeding|출혈
+hold my mail|우편물을 보관하다
+in case|~할 경우에 대비해
+before or after meals|식전 또는 식후
+life jackets|구명조끼
+meet back|다시 만나다
+getting off|내리다
+get past|지나가다
+sit down|앉다
+power go out|전기가 나가다
+management office|관리사무소
+resident registration|주민등록(등본)
+coat check|외투 보관소
+intermission|중간 휴식
+unpacked|짐을 풀었다
+detergent|세제
+locked out|문이 잠겨 못 들어간
+door lock|도어락
+battery died|배터리가 다 됐다
+look after|돌보다
+registered mail|등기우편
+cutting out|(연결이) 끊기는
+restarted|다시 켰다
+router|공유기
+technician|기사, 기술자
+test results|검사 결과
+follow-up|후속 진료
+supply|(약의) 분량
+fridge|냉장고
+free trial|무료 체험
+beginners|초보자
+main stage|메인 무대
+get separated|서로 떨어지다
+touch it up|보정하다
+dimensions|크기, 치수
+flu shot|독감 예방주사
+gift bag|선물 봉투
+race number|(마라톤) 번호표
+finish line|결승선
+worn down|닳은
+come by|들르다
+faucet|수도꼭지
+dripping|물이 떨어지는
+checkup|점검, 검진
+drop me off|내려 주다
+report a lost card|카드 분실 신고하다
+outage|(서비스) 장애
+next available flight|가장 빠른 다음 항공편
+big batch|대량, 한꺼번에 많이
+heads of cabbage|배추 포기
+shovel|삽
+cholesterol|콜레스테롤
+diet|식단
+gums|잇몸
+sensitive|예민한
+send money overseas|해외로 송금하다
+festive|축제 분위기의
+same stylist|같은 담당 미용사
+looking out for|챙겨 주는
+put up|(트리를) 세우다
+hand me|건네주다
+popcorn combo|팝콘 세트
+next showing|다음 상영
+seats together|붙어 있는 자리
+rooms available|빈방
+hints|힌트
+per hour|시간당
+special exhibition|특별전
+take a look|한번 보다
+bring them back|돌려주다, 반납하다
+plastic bottles|페트병
+take the labels off|라벨을 떼다
+hand with|~을 돕다
+section|코너, 구역
+how much farther|얼마나 더 가야
+row|(좌석) 열
+lane|(볼링) 레인
+strike|스트라이크
+final price|최종 가격
+trial class|체험 수업
+how soon|얼마나 빨리
+take two|두 개 가져가
+look at you|이게 누구야, 멋지다
+take a step|한 발 움직이다
+last used|마지막으로 썼다
+quiet dinner|조용한 저녁 식사
+spending it with|~와 함께 보내다
+road trip|자동차 여행
+warning light|경고등
+tire pressure|타이어 공기압
+side dishes|반찬
+store lights|매장 조명
+good news|좋은 소식
+social media|소셜 미디어
+small group|소규모 그룹
+look after my cat|고양이를 봐 주다
+bring anything|뭘 가져가다
+for a sec|잠깐
+mobile data|모바일 데이터
+turning it off and on|껐다 켰다 하기

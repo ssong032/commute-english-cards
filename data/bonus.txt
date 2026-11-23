@@ -1,0 +1,2 @@
+# 카드 7장 보너스 표현: 날짜|English|한국어|한 줄 설명 (365장면 확대 전 견본)
+2027-01-05|Can I make a reservation for two at 7 this Friday?|이번 주 금요일 7시에 두 명 예약할 수 있을까요?|book a table 대신 make a reservation 도 똑같이 자연스러워요. 식당·호텔 어디서나 써요.

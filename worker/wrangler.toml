@@ -1,0 +1,14 @@
+name = "commute-english-bot"
+main = "src/worker.js"
+compatibility_date = "2025-06-01"
+workers_dev = true
+
+# KV: 날짜별 게시 상태, 일시정지 표시
+[[kv_namespaces]]
+binding = "STATE"
+id = "bb27d9531c71420d919c4e7c4af8cec7"
+
+[triggers]
+crons = ["*/5 * * * *"]
+
+# Secrets (커밋 금지): IG_ACCESS_TOKEN, IG_USER_ID, WEBHOOK_SECRET
