@@ -53,6 +53,16 @@ def scene(sc, bubble, mouth, blink, handle):
 <div style="position:absolute;left:80px;bottom:90px;font-size:32px;color:{MA.MUTED};font-weight:600">🚇 {MA.esc(handle)} · 🔊 AI 음성</div></div>""")
 
 
+INTRO_SEC = 2.5  # 2026-11-25 사장님 요청: 맨 앞에 검은 바탕 + 흰 글씨 안내
+SONG = MUSIC / "coffee_on_my_way.mp3"  # 사장님 곡 'Coffee On My Way' 반주 (자체 제작, 저작권 문제 없음)
+
+
+def intro_page():
+    return MA.page(1080, 1920, """<div style="width:1080px;height:1920px;background:#000;color:#fff;display:flex;flex-direction:column;justify-content:center;align-items:center;gap:56px;text-align:center">
+<div style="font-size:120px;font-weight:900;letter-spacing:-2px">잠깐만!</div>
+<div style="font-size:78px;font-weight:800;line-height:1.45">10초만 투자하고<br>하루 영어 완성하세요</div></div>""")
+
+
 def build(chrome, sc, wavs, out_mp4, cover_jpg, handle, gl, ffmpeg):
     """sc: 게시용 장면(날짜는 실제 게시일). wavs: 문장 3개의 24kHz wav 경로."""
     tmp = Path(out_mp4).parent / "_f"; tmp.mkdir(exist_ok=True)
@@ -64,7 +74,7 @@ def build(chrome, sc, wavs, out_mp4, cover_jpg, handle, gl, ffmpeg):
     bubbles["end"] = '<div style="font-size:58px;font-weight:900;line-height:1.4">오늘 3문장, 저장해두고<br>출근길에 같이 말해요 📌</div><div style="font-size:44px;color:#5f6878">🎙️ 내 발음 점수는 프로필 링크</div>'
     sil = lambda sec: np.zeros(int(SR * sec), dtype=np.float32)
     voice = [sf.read(w, dtype="float32")[0] for w in wavs]
-    segs, track = [("hook", 2.8)], [sil(2.8)]
+    segs, track = [("intro", INTRO_SEC), ("hook", 2.8)], [sil(INTRO_SEC), sil(2.8)]
     for i, v in enumerate(voice):
         segs.append((f"q{i}", 1.8)); track.append(sil(1.8))
         a = np.concatenate([sil(0.2), v, sil(max(1.8, len(v) / SR)), sil(0.3)])
@@ -84,7 +94,8 @@ def build(chrome, sc, wavs, out_mp4, cover_jpg, handle, gl, ffmpeg):
         for k in range(a, min(b, n)):
             key = (name, int(mouth[k]), bool(blink[k])); need.add(key); frames.append(key)
     for name, m, bl in sorted(need):
-        MA.shot(chrome, scene(sc, bubbles[name], m, bl, handle), tmp / f"{name}_{m}_{int(bl)}.png", 1080, 1920)
+        html = intro_page() if name == "intro" else scene(sc, bubbles[name], m, bl, handle)
+        MA.shot(chrome, html, tmp / f"{name}_{m}_{int(bl)}.png", 1080, 1920)
     with open(tmp / "list.txt", "w", encoding="utf-8") as f:
         prev, cnt = None, 0
         for key in frames + [None]:
@@ -96,10 +107,11 @@ def build(chrome, sc, wavs, out_mp4, cover_jpg, handle, gl, ffmpeg):
         last = frames[-1]
         f.write(f"file '{(tmp / f'{last[0]}_{last[1]}_{int(last[2])}.png').as_posix()}'\n")
     total = len(audio) / SR
-    bgm = sorted(MUSIC.glob("*.m4a"))[sc["day"] % 6]
+    bgm = SONG if SONG.exists() else sorted(MUSIC.glob("*.m4a"))[sc["day"] % 6]
+    vol = 0.095 if bgm == SONG else 0.08  # 곡 음량(RMS 0.171)을 예전 BGM(0.204)과 같은 크기로 맞춤
     subprocess.run([ffmpeg, "-y", "-loglevel", "error", "-f", "concat", "-safe", "0", "-i", str(tmp / "list.txt"), "-i", str(tmp / "voice.wav"),
                     "-stream_loop", "-1", "-i", str(bgm), "-filter_complex",
-                    f"[1:a]aresample=48000[v];[2:a]aresample=48000,volume=0.08,afade=t=out:st={total - 1.5:.2f}:d=1.5[b];[v][b]amix=inputs=2:duration=first:normalize=0[a]",
+                    f"[1:a]aresample=48000[v];[2:a]aresample=48000,volume={vol},afade=t=out:st={total - 1.5:.2f}:d=1.5[b];[v][b]amix=inputs=2:duration=first:normalize=0[a]",
                     "-map", "0:v", "-map", "[a]", "-c:v", "libx264", "-pix_fmt", "yuv420p", "-r", str(FPS),
                     "-c:a", "aac", "-b:a", "160k", "-ar", "48000", "-ac", "2",
                     "-t", f"{total:.2f}", "-movflags", "+faststart", str(out_mp4)], check=True)
