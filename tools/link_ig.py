@@ -32,7 +32,15 @@ def main():
     exp = dbg.get("expires_at", 0)
     print("사용자 토큰:", dbg.get("type"), "· 앱", dbg.get("app_id"), "· 만료", "없음" if not exp else time.strftime("%Y-%m-%d %H:%M", time.localtime(exp)))
     if exp and exp - time.time() < 7 * 86400:
-        print("⚠️ 짧은 토큰이에요. Access Token Tool 에서 'Extend Access Token' 한 토큰이어야 만료 없는 페이지 토큰이 나와요.")
+        # 짧은 토큰(1~2시간)이면 앱 시크릿으로 직접 연장한다 (토큰 디버거에서 'Extend' 누르는 것과 같음)
+        secret = next((l.split("=", 1)[1].strip() for l in lines if l.strip().startswith("FB_APP_SECRET")), "")
+        if not secret:
+            sys.exit("짧은 토큰이에요. tokens.txt 에 FB_APP_SECRET= 을 넣어 주면 자동으로 연장해요 (또는 토큰 디버거에서 연장한 토큰을 넣어 주세요).")
+        ut = get("oauth/access_token", grant_type="fb_exchange_token", client_id=dbg.get("app_id"),
+                 client_secret=secret, fb_exchange_token=ut)["access_token"]
+        dbg = get("debug_token", input_token=ut, access_token=ut)["data"]
+        exp = dbg.get("expires_at", 0)
+        print("자동 연장 완료 · 만료", "없음" if not exp else time.strftime("%Y-%m-%d %H:%M", time.localtime(exp)))
     ids = set()
     for g in dbg.get("granular_scopes", []):
         if g["scope"].startswith("pages_"):
