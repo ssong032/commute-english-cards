@@ -11,10 +11,12 @@ import soundfile as sf
 from PIL import Image
 
 import make_assets as MA
+from render_quiz import EN_CSS, en_size  # 카드뉴스와 같은 영어 글꼴(Inter)·크기 규칙
 
 HERE = Path(__file__).resolve().parent
 MUSIC = HERE / "music"
 SR, FPS = 24000, 30
+SPEED = 0.85  # 2026-11-25 사장님 요청: 원어민 말하기 속도를 85%로 (음높이 유지)
 
 
 def tori(mouth, blink):
@@ -26,7 +28,7 @@ def tori(mouth, blink):
     mouths = ['<path d="M-26 38 q13 14 26 0 q13 14 26 0" stroke="#1d1d1f" stroke-width="8" fill="none" stroke-linecap="round"/>',
               '<ellipse cx="0" cy="46" rx="24" ry="15" fill="#7a2531"/><ellipse cx="0" cy="54" rx="13" ry="6" fill="#e5737f"/>',
               '<ellipse cx="0" cy="52" rx="30" ry="30" fill="#7a2531"/><ellipse cx="0" cy="68" rx="17" ry="9" fill="#e5737f"/>']
-    return f"""<svg viewBox="-300 -330 600 640" width="660" height="704" xmlns="http://www.w3.org/2000/svg">
+    return f"""<svg viewBox="-300 -330 600 640" width="490" height="523" xmlns="http://www.w3.org/2000/svg">
 <path d="M-210 300 q0 -170 210 -170 q210 0 210 170 z" fill="#1f4fd1"/>
 <rect x="-46" y="190" width="92" height="62" rx="10" fill="#fff"/><text x="0" y="232" font-size="30" font-weight="800" text-anchor="middle" fill="#1f4fd1" font-family="Arial">T</text>
 <path d="M-190 -80 L-195 -295 L-55 -165 z" fill="#ffd9a8"/><path d="M190 -80 L195 -295 L55 -165 z" fill="#ffd9a8"/>
@@ -46,11 +48,11 @@ def scene(sc, bubble, mouth, blink, handle):
     d, col, cname = MA.LINE[sc["cat"]]
     return MA.page(1080, 1920, f"""<div style="width:1080px;height:1920px;background:linear-gradient(#eef3ff,#f7f9fc 55%,#e6ecf7);position:relative;overflow:hidden">
 <div style="position:absolute;left:80px;right:80px;top:150px;display:flex;align-items:center;gap:20px;font-size:38px;font-weight:700;color:{MA.MUTED}">{MA.badge(sc["cat"], 66)}<span>{cname} · {MA.esc(sc["title"])}</span></div>
-<div style="position:absolute;left:70px;right:70px;top:270px;min-height:560px;background:#fff;border-radius:48px;padding:56px 60px;box-shadow:0 10px 0 rgba(31,79,209,.12);display:flex;flex-direction:column;gap:28px;justify-content:center">{bubble}
+<div style="position:absolute;left:70px;right:70px;top:260px;min-height:620px;background:#fff;border-radius:48px;padding:56px 56px;box-shadow:0 10px 0 rgba(31,79,209,.12);display:flex;flex-direction:column;gap:28px;justify-content:center">{bubble}
 <div style="position:absolute;left:50%;bottom:-46px;transform:translateX(-50%);width:0;height:0;border-left:46px solid transparent;border-right:46px solid transparent;border-top:50px solid #fff"></div></div>
-<div style="position:absolute;left:0;right:0;bottom:250px;display:flex;justify-content:center">{tori(mouth, blink)}</div>
-<div style="position:absolute;left:0;right:0;bottom:170px;text-align:center;font-size:40px;font-weight:800;color:{col}">출근길 고양이 토리</div>
-<div style="position:absolute;left:80px;bottom:90px;font-size:32px;color:{MA.MUTED};font-weight:600">🚇 {MA.esc(handle)} · 🔊 AI 음성</div></div>""")
+<div style="position:absolute;left:0;right:0;bottom:225px;display:flex;justify-content:center">{tori(mouth, blink)}</div>
+<div style="position:absolute;left:0;right:0;bottom:155px;text-align:center;font-size:40px;font-weight:800;color:{col}">출근길 고양이 토리</div>
+<div style="position:absolute;left:80px;bottom:80px;font-size:32px;color:{MA.MUTED};font-weight:600">🚇 {MA.esc(handle)} · 🔊 AI 음성</div></div>""", EN_CSS)
 
 
 INTRO_SEC = 2.5  # 2026-11-25 사장님 요청: 맨 앞에 검은 바탕 + 흰 글씨 안내
@@ -67,13 +69,22 @@ def build(chrome, sc, wavs, out_mp4, cover_jpg, handle, gl, ffmpeg):
     """sc: 게시용 장면(날짜는 실제 게시일). wavs: 문장 3개의 24kHz wav 경로."""
     tmp = Path(out_mp4).parent / "_f"; tmp.mkdir(exist_ok=True)
     s = sc["steps"]
-    bubbles = {"hook": f'<div style="font-size:44px;font-weight:700;color:{MA.BLUE}">오늘의 장면</div><div style="font-size:66px;font-weight:900;line-height:1.35">{MA.esc(sc["scene"].split(". ")[0].rstrip("."))}.</div><div style="font-size:52px;font-weight:800">이럴 때 영어로 뭐라고 할까? 🤔</div>'}
+    bubbles = {"hook": f'<div style="font-size:54px;font-weight:900;color:{MA.BLUE}">오늘의 장면</div><div style="font-size:84px;font-weight:900;line-height:1.3;letter-spacing:-2px">{MA.esc(sc["scene"].split(". ")[0].rstrip("."))}.</div><div style="font-size:66px;font-weight:900;letter-spacing:-1px">이럴 때 영어로 <span style="white-space:nowrap">뭐라고 할까? 🤔</span></div>'}
     for i, x in enumerate(s):
         bubbles[f"q{i}"] = f'<div style="font-size:42px;font-weight:800;color:{MA.BLUE}">{i + 1} / 3 · {MA.esc(x["q"])}</div><div style="font-size:72px;font-weight:900;line-height:1.35">“{MA.esc(x["ko"])}”</div><div style="font-size:48px;font-weight:700;color:{MA.MUTED}">토리가 영어로 말해 볼게요 👂</div>'
-        bubbles[f"a{i}"] = f'<div style="font-size:42px;font-weight:800;color:{MA.BLUE}">{i + 1} / 3 · 🔁 듣고 따라 해 보세요</div><div style="font-size:74px;font-weight:800;line-height:1.3">{MA.mark(x["en"], MA.gloss_spans(x["en"], gl))}</div><div style="font-size:46px;line-height:1.4">{MA.esc(x["ko"])}</div>'
+        sp = MA.gloss_spans(x["en"], gl)
+        chips = "".join(f'<span style="background:#e8eefc;border-radius:18px;padding:10px 22px;font-size:36px;font-weight:600"><b class="en" style="color:{MA.BLUE}">{MA.esc(x["en"][a:b])}</b> {MA.esc(v)}</span>' for a, b, v in sp)
+        bubbles[f"a{i}"] = (f'<div style="font-size:42px;font-weight:800;color:{MA.BLUE}">{i + 1} / 3 · 🔁 듣고 따라 해 보세요</div>'
+                            f'<div class="en" style="font-size:{en_size(x["en"], 92, 78)}px;font-weight:800;line-height:1.28">{MA.mark(x["en"], sp)}</div>'
+                            f'<div style="font-size:46px;line-height:1.4;font-weight:600">{MA.esc(x["ko"])}</div>'
+                            + (f'<div style="display:flex;flex-wrap:wrap;gap:12px">{chips}</div>' if chips else ""))
     bubbles["end"] = '<div style="font-size:58px;font-weight:900;line-height:1.4">오늘 3문장, 저장해두고<br>출근길에 같이 말해요 📌</div><div style="font-size:44px;color:#5f6878">🎙️ 내 발음 점수는 프로필 링크</div>'
     sil = lambda sec: np.zeros(int(SR * sec), dtype=np.float32)
-    voice = [sf.read(w, dtype="float32")[0] for w in wavs]
+    def slow(w, k):
+        o = tmp / f"slow{k}.wav"
+        subprocess.run([ffmpeg, "-y", "-loglevel", "error", "-i", str(w), "-filter:a", f"atempo={SPEED}", "-ar", str(SR), "-ac", "1", str(o)], check=True)
+        return o
+    voice = [sf.read(slow(w, k), dtype="float32")[0] for k, w in enumerate(wavs)]
     segs, track = [("intro", INTRO_SEC), ("hook", 2.8)], [sil(INTRO_SEC), sil(2.8)]
     for i, v in enumerate(voice):
         segs.append((f"q{i}", 1.8)); track.append(sil(1.8))
